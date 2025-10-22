@@ -6,7 +6,7 @@ const experience = [
   {
     role: 'Desarrollador de Software - BeanChain',
     company: 'Enciso Systems',
-    period: '07/2025 - 09/2025',
+    period: '06/2025 - 09/2025',
     description:
       'Desarrollé una plataforma web para trazabilidad de cacao utilizando Django, implementé APIs RESTful, gestioné una base de datos PostgreSQL y realicé containerización completa con Docker. Diseñé y desarrollé interfaces de usuario responsivas con HTML, CSS y JavaScript, incluyendo mapas interactivos para visualización geoespacial de fincas y seguimiento de envíos. Utilicé control de versiones y colaboración en equipo a través de GitHub.',
     technologies: ['Django', 'PostgreSQL', 'Docker', 'HTML/CSS/JavaScript', 'GitHub'],

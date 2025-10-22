@@ -1,6 +1,6 @@
 'use client';
 
-import { Github, Linkedin, Mail, User, Sparkles } from 'lucide-react';
+import { Github, Linkedin, Mail, User, Sparkles, Download } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
@@ -53,6 +53,19 @@ export function HeroSection() {
               >
                 <Mail className="mr-2 h-4 w-4" aria-hidden="true" />
                 Contáctame
+              </Button>
+              <Button
+                asChild
+                size="lg"
+                className="animate-glow"
+              >
+                <a
+                  href="/cv-yarlinson-barranco.pdf"
+                  download="CV-Yarlinson-Barranco.pdf"
+                >
+                  <Download className="mr-2 h-4 w-4" aria-hidden="true" />
+                  Descargar CV
+                </a>
               </Button>
             </div>
 
