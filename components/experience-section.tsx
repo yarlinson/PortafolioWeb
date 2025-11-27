@@ -4,6 +4,25 @@ import { Badge } from '@/components/ui/badge';
 
 const experience = [
   {
+    role: 'Desarrollador Full Stack - Climate First Dashboard',
+    company: 'Enciso Systems',
+    period: '06/2025 - 11/2025',
+    description:
+      'Construí un ecosistema completo de microservicios en Django para monitorear propuestas y proyectos climáticos, cubriendo usuarios, documentación y notificaciones en tiempo real. Diseñé APIs RESTful seguras, seeds y migraciones automatizadas, orquestación con Docker Compose/Makefile y pipelines para entornos locales y CI. Implementé el frontend geoespacial en Next.js/TypeScript con fetchers centralizados, dashboards, formularios y administración de usuarios sobre mapas interactivos con Leaflet, incluyendo componentes como LocationMapViewer y PolygonBuilder para digitalización de polígonos en el navegador.',
+    technologies: [
+      'Django',
+      'DRF',
+      'PostgreSQL/PostGIS',
+      'Docker Compose',
+      'Makefile',
+      'Next.js',
+      'TypeScript',
+      'Leaflet',
+      'GitHub'
+    ],
+    website: ''
+  },
+  {
     role: 'Desarrollador de Software - BeanChain',
     company: 'Enciso Systems',
     period: '06/2025 - 09/2025',
