@@ -28,7 +28,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-xl text-muted-foreground">
-              Ingeniero de Sistemas especializado en desarrollo web full-stack con Python, Django, PostgreSQL, MySQL, TypeScript,
+              Ingeniero de Sistemas especializado en desarrollo full-stack con Python, Django, Go, PostgreSQL, MySQL, TypeScript,
               React y Next.js; programación orientada a objetos y desarrollo de APIs REST
             </p>
 

@@ -1,0 +1,164 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry} % Document margins
+\usepackage{hyperref} % Clickable links
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Yarlinson Barranco} % Your name
+\address{Villavicencio, Colombia} % Your address
+\address{(+57) 3204991236 \\ yarlinson0@gmail.com} % Your phone number and email
+\address{\href{https://www.linkedin.com/in/yarlinson-barranco-988a50301}{LinkedIn} \\ \href{https://github.com/yarlinson}{GitHub} \\ \href{https://portafolio-web-one-ivory.vercel.app}{Portafolio}} % Your links
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL SUMMARY
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Summary}
+
+Desarrollador de software con enfoque en programaci\'on orientada a objetos y desarrollo full-stack. Experiencia en C++, Python, Java, PHP, Go, TypeScript, React y Next.js, con s\'olidos conocimientos en paradigmas de programaci\'on estructurada y orientada a objetos. Manejo de bases de datos relacionales (PostgreSQL, MySQL), incluyendo dise\~no y optimizaci\'on de consultas SQL. Experiencia pr\'actica en desarrollo web utilizando el framework Django, aplicando arquitectura MVC y creando APIs REST eficientes y escalables.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Ingeniero de Sistemas} \hfill {Junio 2020 - Junio 2026}
+\\
+Universidad de los Llanos, Villavicencio, Colombia
+
+{\bf Bootcamp de Programaci\'on Integrado} \hfill {Julio 2024 - Diciembre 2024}
+\\
+Ministerio de Tecnolog\'ias de la Informaci\'on y las Comunicaciones (MinTIC), Colombia
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Lenguajes & C++, Python, Java, PHP, Go, TypeScript, JavaScript, HTML, CSS \\
+Frameworks & Django, Django REST Framework, Next.js, React, Bootstrap 5, Tailwind CSS \\
+Bases de Datos & PostgreSQL, PostGIS, MySQL, SQLite \\
+DevOps \& Herramientas & Docker, Docker Compose, Makefile, Git, GitHub, Leaflet, GeoDjango \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{Desarrollador Full Stack}{Marzo 2025 - Julio 2026}{Enciso Systems, Villavicencio}{}
+
+\item Climate Investment Project Pipeline / Climate FIRST (climatefirstproject.org): dashboard de inversi\'on clim\'atica para Pap\'ua Nueva Guinea (AUD 20M, Australia-CCDA/GGGI). Dise\~n\'e y desarroll\'e arquitectura de microservicios con Django REST Framework para gesti\'on de usuarios, propuestas, portafolios, documentos y notificaciones in-app con env\'io SMTP
+\item Constru\'i el frontend de la plataforma en Next.js y TypeScript con autenticaci\'on, dashboards con m\'etricas y gr\'aficos, formularios con filtros avanzados y visualizaci\'on geoespacial con Leaflet (LocationMapViewer, PolygonBuilder)
+\item Desarroll\'e BeanChain (beanchain.co), plataforma integral de trazabilidad de cacao farm-to-bar con contratos inteligentes en Solidity (Ethereum Sepolia) y backend GeoDjango/PostGIS: gesti\'on geoespacial de fincas, registro inmutable en blockchain de lotes, transacciones y env\'ios, trazabilidad p\'ublica por QR con verificaci\'on on-chain, monitoreo satelital de deforestaci\'on (Planet/Sentinel-2 v\'ia GeoServer WMS), y reportes PDF de cumplimiento EU 2023/1115 (EUDR)
+\item Orquest\'e el ecosistema DevOps completo con Docker Compose (Django+Gunicorn, PostGIS, GeoServer WMS, Hardhat Node), Makefile, CI/CD con GitHub Actions, despliegue en DigitalOcean, e internacionalizaci\'on en 4 idiomas (ES/EN/DE/ZH). Incluye perfilamiento cient\'ifico: an\'alisis de suelos, microbiomas (16S/ITS) y perfiles sensoriales con Chart.js
+
+\end{rSubsection}
+
+\begin{rSubsection}{Desarrollador Web}{Diciembre 2025 - Julio 2026}{Enciso Systems (ESO), Villavicencio}{}
+
+\item Soporte y mantenimiento de los portales web supernova.eso.org y eso.org mediante sistema de tickets, resolviendo incidencias de frontend, contenido y permisos de edici\'on
+\item Integraci\'on de pasarelas de pago (PayPal Smart Buttons, Google Pay, Apple Pay) en ESO Online Shop con backend Django
+\item Desarrollo de funcionalidades interactivas (ELT West Camera) y soporte general de la plataforma Djangoplicity
+
+\end{rSubsection}
+
+\begin{rSubsection}{Monitor de Soporte T\'ecnico}{Febrero 2025 - Junio 2026}{Universidad de los Llanos - IDEAD, Villavicencio}{}
+
+\item Atenci\'on especializada a solicitudes de estudiantes y soporte t\'ecnico integral en la plataforma Moodle
+\item Gesti\'on de incidencias, configuraci\'on de aulas virtuales, desarrollo y carga de materiales educativos digitales
+\item Asistencia personalizada a usuarios del campus virtual para optimizar la experiencia de aprendizaje en l\'inea
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{Software Educativo de Programaci\'on Lineal}{2024}{Django \& Python}{}
+
+\item Aplicaci\'on web educativa con arquitectura MVC implementando 5 algoritmos de optimizaci\'on (Simplex, Dual, Gr\'afico, Dos Fases, Gran M) con programaci\'on orientada a objetos
+\item Interfaz responsive con validaci\'on robusta de formularios, manejo de degeneraci\'on, renderizado estandarizado de resultados y visualizaci\'on din\'amica de soluciones matem\'aticas con tablas de iteraci\'on
+
+\end{rSubsection}
+
+\begin{rSubsection}{Sistema de Gesti\'on de Tareas}{2024}{Django REST Framework \& Python}{}
+
+\item Aplicaci\'on web full-stack con API REST documentada, autenticaci\'on por tokens, protecci\'on CSRF y aislamiento por usuario
+\item CRUD completo de tareas con marcado de completado, filtrado por estado, b\'usqueda avanzada e interfaz responsive con Bootstrap 5 y validaci\'on en tiempo real
+
+\end{rSubsection}
+
+\begin{rSubsection}{Dashboard Interactivo de Pok\'emon}{2025}{Next.js \& React}{}
+
+\item Aplicaci\'on web moderna con integraci\'on a la Pok\'eAPI para explorar, buscar y gestionar informaci\'on detallada de Pok\'emon con b\'usqueda y filtrado avanzado por nombre, tipo y generaci\'on
+\item Interfaz responsiva con Tailwind CSS, animaciones fluidas con Framer Motion y gesti\'on eficiente del estado y cach\'e con TanStack React Query
+
+\end{rSubsection}
+
+\begin{rSubsection}{Ambrosia -- Plataforma de Alimentaci\'on para Disfagia}{2026}{Next.js 15 + React 19 + TypeScript + Supabase}{}
+
+\item Plataforma web sobre disfagia con landing informativa, cat\'alogo IDDSI, videorecetas, sistema de suscripci\'on con planes y autenticaci\'on completa via Supabase Auth
+\item Simulaci\'on interactiva de pagos (Tarjeta, PSE, PayPal, Addi), formulario de contacto con Nodemailer, perfil de membres\'ia y biblioteca PDF. Dise\~no 100\% responsive con Tailwind CSS v4 sin librer\'ias UI externas
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES & SOFT SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Languages \& Soft Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Idiomas & Espa\~nol (Nativo), Ingl\'es (A2) \\
+Habilidades Blandas & Trabajo en equipo, responsabilidad, aprendizaje r\'apido, comunicaci\'on, \\& organizaci\'on y puntualidad \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Declaration} \itemsep -3pt
+
+\item I hereby declare that all the details furnished above are true to the best of my knowledge and belief.
+
+\end{rSection}
+
+\end{document}

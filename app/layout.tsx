@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: '%s | Yarlinson Barranco - Portfolio',
   },
   description:
-    'Portfolio profesional de Yarlinson Barranco, Ingeniero de Sistemas con experiencia en desarrollo web full-stack con TypeScript, React y Next.js, además de Django, Python y PostgreSQL. Especializado en programación orientada a objetos y desarrollo de APIs REST.',
+      'Portfolio profesional de Yarlinson Barranco, Ingeniero de Sistemas con experiencia en desarrollo full-stack con TypeScript, React, Next.js, Django, Go, Python y PostgreSQL. Especializado en programación orientada a objetos y desarrollo de APIs REST.',
   keywords: [
     'ingeniero de sistemas',
     'desarrollador',
@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     'typescript',
     'react',
     'nextjs',
+    'go',
     'full stack',
     'programación orientada a objetos',
     'portfolio',
@@ -34,14 +35,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://tu-dominio.com'),
+  metadataBase: new URL('https://portafolio-web-one-ivory.vercel.app'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'es_ES',
-    url: 'https://tu-dominio.com',
+    url: 'https://portafolio-web-one-ivory.vercel.app',
     title: 'Yarlinson Barranco - Ingeniero de Sistemas',
     description:
       'Portfolio profesional de Yarlinson Barranco, Ingeniero de Sistemas con experiencia en Django, Python, PostgreSQL y desarrollo web full-stack.',
@@ -74,9 +75,7 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'tu-google-verification-code',
-  },
+  verification: {}
 };
 
 export default function RootLayout({

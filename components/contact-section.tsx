@@ -1,6 +1,6 @@
 'use client';
 
-import { Github, Linkedin, Mail, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function ContactSection() {
@@ -28,11 +28,7 @@ export function ContactSection() {
               <Mail className="mr-2 h-5 w-5" aria-hidden="true" />
               Enviar Email
             </a>
-            <Button
-              asChild
-              size="lg"
-              className="animate-glow"
-            >
+            <Button asChild size="lg" className="animate-glow">
               <a
                 href="/cv-yarlinson-barranco.pdf"
                 download="CV-Yarlinson-Barranco.pdf"
@@ -45,9 +41,9 @@ export function ContactSection() {
               href="https://wa.me/573204991236"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-md border border-input bg-background hover:bg-accent hover:text-accent-foreground transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors animate-glow"
             >
-              <Download className="mr-2 h-5 w-5" aria-hidden="true" />
+              <MessageCircle className="mr-2 h-5 w-5" aria-hidden="true" />
               WhatsApp
             </a>
           </div>

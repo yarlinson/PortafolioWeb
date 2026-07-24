@@ -3,24 +3,31 @@ import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const skills = [
-  'Python',
-  'Django',
-  'PostgreSQL',
-  'MySQL',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Next.js',
-  'HTML5/CSS3',
-  'Bootstrap',
-  'Git',
-  'Docker',
   'C++',
+  'Python',
   'Java',
   'PHP',
-  'SQL',
-  'REST APIs',
-  'MVC',
+  'Go',
+  'TypeScript',
+  'JavaScript',
+  'HTML5/CSS3',
+  'Django',
+  'Django REST Framework',
+  'Next.js',
+  'React',
+  'Bootstrap',
+  'Tailwind CSS',
+  'PostgreSQL',
+  'PostGIS',
+  'MySQL',
+  'SQLite',
+  'Docker',
+  'Docker Compose',
+  'Makefile',
+  'Git',
+  'GitHub',
+  'Leaflet',
+  'GeoDjango',
 ];
 
 export function AboutSection() {
@@ -45,7 +52,7 @@ export function AboutSection() {
             <User className="h-12 w-12 text-primary mb-4" aria-hidden="true" />
             <h3 className="text-2xl font-bold mb-4">¿Quién soy?</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Desarrollador de software con enfoque en programación orientada a objetos y desarrollo web full-stack. Experiencia en C++, Python, Java, PHP, TypeScript, React y Next.js, con sólidos conocimientos en paradigmas de programación estructurada y orientada a objetos. Manejo de bases de datos relacionales (PostgreSQL, MySQL), incluyendo diseño y optimización de consultas SQL. Experiencia práctica en desarrollo web utilizando el framework Django, aplicando arquitectura MVC y creando APIs REST eficientes y escalables.
+              Desarrollador de software con enfoque en programación orientada a objetos y desarrollo full-stack. Experiencia en C++, Python, Java, PHP, Go, TypeScript, React y Next.js, con sólidos conocimientos en paradigmas de programación estructurada y orientada a objetos. Manejo de bases de datos relacionales (PostgreSQL, MySQL), incluyendo diseño y optimización de consultas SQL. Experiencia práctica en desarrollo web utilizando el framework Django, aplicando arquitectura MVC y creando APIs REST eficientes y escalables.
             </p>
           </Card>
 

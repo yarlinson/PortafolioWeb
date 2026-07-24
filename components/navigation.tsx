@@ -43,20 +43,28 @@ export function Navigation() {
               Sobre Mí
             </button>
             <button
-              onClick={() => scrollToSection('proyectos')}
-              className="hover:text-primary transition-colors"
-              role="menuitem"
-              aria-label="Ir a la sección de proyectos"
-            >
-              Proyectos
-            </button>
-            <button
               onClick={() => scrollToSection('experiencia')}
               className="hover:text-primary transition-colors"
               role="menuitem"
               aria-label="Ir a la sección de experiencia"
             >
               Experiencia
+            </button>
+            <button
+              onClick={() => scrollToSection('educacion')}
+              className="hover:text-primary transition-colors"
+              role="menuitem"
+              aria-label="Ir a la sección de educación"
+            >
+              Educación
+            </button>
+            <button
+              onClick={() => scrollToSection('proyectos')}
+              className="hover:text-primary transition-colors"
+              role="menuitem"
+              aria-label="Ir a la sección de proyectos"
+            >
+              Proyectos
             </button>
             <button
               onClick={() => scrollToSection('contacto')}
@@ -109,20 +117,28 @@ export function Navigation() {
               Sobre Mí
             </button>
             <button
-              onClick={() => scrollToSection('proyectos')}
-              className="block w-full text-left hover:text-primary transition-colors"
-              role="menuitem"
-              aria-label="Ir a la sección de proyectos"
-            >
-              Proyectos
-            </button>
-            <button
               onClick={() => scrollToSection('experiencia')}
               className="block w-full text-left hover:text-primary transition-colors"
               role="menuitem"
               aria-label="Ir a la sección de experiencia"
             >
               Experiencia
+            </button>
+            <button
+              onClick={() => scrollToSection('educacion')}
+              className="block w-full text-left hover:text-primary transition-colors"
+              role="menuitem"
+              aria-label="Ir a la sección de educación"
+            >
+              Educación
+            </button>
+            <button
+              onClick={() => scrollToSection('proyectos')}
+              className="block w-full text-left hover:text-primary transition-colors"
+              role="menuitem"
+              aria-label="Ir a la sección de proyectos"
+            >
+              Proyectos
             </button>
             <button
               onClick={() => scrollToSection('contacto')}
