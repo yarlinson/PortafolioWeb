@@ -28,8 +28,8 @@ export function HeroSection() {
             </h1>
 
             <p className="text-xl text-muted-foreground">
-              Ingeniero de Sistemas especializado en desarrollo full-stack con Python, Django, Go, PostgreSQL, MySQL, TypeScript,
-              React y Next.js; programación orientada a objetos y desarrollo de APIs REST
+              Ingeniero de Sistemas especializado en desarrollo full-stack con Python, Node.js, Django, Go, PostgreSQL, MySQL, TypeScript,
+              Angular, React y Next.js; programación orientada a objetos y desarrollo de APIs REST
             </p>
 
             <div className="flex flex-wrap gap-4">
